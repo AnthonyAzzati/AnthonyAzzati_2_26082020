@@ -1,3 +1,87 @@
-* {
+/*  bleu #0065FC 
+    bleu clair #DEEBFF 
+    gris #F2F2F2. */
+
+body {
     font-family: 'Raleway', sans-serif;
+    width: 1440px;
+    height: auto;
+    padding: 20px 50px 0 50px;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+    display: flex;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 1.2em;
+}
+
+ul li{
+    width: 160px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.inscription {
+    color: #0065FC;
+    font-weight: bold;
+}
+
+.inscription a:visited {
+    color: #0065FC;
+}
+
+.activités {
+    color: black;
+}
+
+.activités a:visited{
+    color: black;
+}
+
+.activités a:hover{
+    color: #0065FC;
+}
+
+.hébergements {
+    color: black;
+}
+
+.hébergements a:visited{
+    color: black;
+}
+
+.hébergements a:hover{
+    color: #0065FC;
+}       
+
+/* MAIN */
+
+/* TITLE */
+
+/* SEARCH FIELD */
+.search-field {
+    display: flex;
+}
+#search {
+    padding: 7px;
+    font-weight: bold;
 }
