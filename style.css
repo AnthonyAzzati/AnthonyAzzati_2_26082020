@@ -133,45 +133,44 @@ i {
     padding: 0;
     justify-content: flex-start;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1em;
+
 }
-
-
-
-
-
-
-
-
-.filters_type1 {
-    display: flex;
-    width: auto;
-}
-.economique_global{
-    display: flex;
-    align-content: center;
-    height: 50px;
-    border: 2px solid #F2F2F2;
-    border-radius: 50px;
-}
-.fa-money-bill-wave {
-    color: #0065FC;
-    background-color: #DEEBFF;
-    margin: auto;
-    height: 50px;
-    border-radius: 100px;
-}
-.test1{
-    font-weight: bold;
-    width: auto;
-    padding: 15px;
-    font-size: 1.2em;
-    margin: auto;
-}
-ul i{
+.filters p{
     vertical-align: middle;
 }
-
+.filters_details {
+    border: 2px solid #F2F2F2;
+    display: flex;
+    height: 40px;
+    width: max-content;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+.icone{
+    background-color: #DEEBFF;
+    display: flex;
+    border-radius: 100px;
+}
+.filters_details i{
+    color: #0065FC;
+}
+button{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    cursor:pointer;
+    font-size: 1.2em;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color:#0065FC ;
+    color:white;
+}
 
 
 
