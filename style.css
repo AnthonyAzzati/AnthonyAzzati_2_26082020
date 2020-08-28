@@ -1,10 +1,10 @@
 /*  bleu #0065FC 
     bleu clair #DEEBFF 
-    gris #F2F2F2. */
+    gris #F2F2F2 */
+
 
 body {
     font-family: 'Raleway', sans-serif;
-    width: 1440px;
     height: auto;
     padding: 20px 50px 0 50px;
 }
@@ -80,8 +80,98 @@ a{
 /* SEARCH FIELD */
 .search-field {
     display: flex;
+    width: 420px;
+    height: 50px;
+    height: 50px;
+    background-color: #F2F2F2 ;
+    border-radius: 15px;
+    
 }
 #search {
     padding: 7px;
     font-weight: bold;
+    width: 260px;
+    height: 50px;
+    font-size: 1.2em;
+    display: flex;
+    text-align: left;
+    border: 2px solid #F2F2F2;
 }
+.search_btn {
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    width: 110px;
+    height: 50px;
+    margin: auto;
+    padding: auto;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition-duration: 0.4s;
+    border: 2px solid #0065FC;
+}
+.search_btn:hover{
+    background-color: white;
+    color: #0065FC;
+}
+i {
+    width: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+/*FILTERS*/
+.filters {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-top: 35px;
+    padding: 0;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+.filters_type1 {
+    display: flex;
+    width: auto;
+}
+.economique_global{
+    display: flex;
+    align-content: center;
+    height: 50px;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+}
+.fa-money-bill-wave {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    margin: auto;
+    height: 50px;
+    border-radius: 100px;
+}
+.test1{
+    font-weight: bold;
+    width: auto;
+    padding: 15px;
+    font-size: 1.2em;
+    margin: auto;
+}
+ul i{
+    vertical-align: middle;
+}
+
+
+
+
