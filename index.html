@@ -9,39 +9,41 @@
     <title>Reservia</title>
 </head>
 
+
+
 <body>
 
     <header>
-        <div class="header">
         <!--logo-->
-            <img src="./images/logo/Reservia@3x.png" alt="logo de Reservia" id="logo">
+        <div class="logo">
+            <img src="./images/logo/Reservia@3x.png" alt="logo de Reservia">
+        </div>   
 
         <!--navbar-->
-            <ul class="navbar">
-                <li class="inscription"><a href="">S'inscrire</a></li>
-                <li class="activités"><a href="#activités">Activités</a></li>
-                <li class="hébergements"><a href="#hébergements">Hébergements</a></li>
-            </ul>
-        </div>
+        <ul>
+            <li class="hébergements"><a href="#hébergements">Hébergements</a></li>
+            <li class="activités"><a href="#activités">Activités</a></li>
+        </ul>
+        <p class="inscription"><a href="#">S'inscrire</a></p>
     </header>
 
 
     <main>
         <!--title-->
-        <h2>Trouvez votre hébergemement pour des vacances de rêve</h2>
+        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
         <p>En plein centre ville ou en pleine nature</p>
 
         <!--search field-->
         <div class="search-field">
             <i class="fas fa-map-marker-alt fa-1x" aria-hidden="true"></i>
-            <input type="search" id="search" name="search" placeholder="Ville, code postal, pays"
+            <input type="search" id="search" name="search" placeholder="Ville, code postal"
             aria-label="Search through site content">
-            <button class="search_btn">Rechercher</button>
-        </div>   
+            <button class="search_btn"><span class="recherche">Rechercher</span></button>
+        </div> 
 
         <!--filters-->
+        <h3>Filtres</h3>
         <div class="filters">
-            <p>Filtres</p> 
             <div class="filters_details">
                 <div class="icone">
                     <i class="fas fa-money-bill-wave fa-1x" aria-hidden="true"></i>
@@ -66,7 +68,8 @@
                 </div>
                 <button>Animaux autorisés</button>
             </div>
-        </div>    
+        </div>
+
 
         <!--container 1-->
 
