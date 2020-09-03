@@ -7,7 +7,6 @@
         font-family: 'Raleway', sans-serif;
         width: auto;
         height: auto;
-        margin: 25px 50px;
     }
     a{
         text-decoration: none;
@@ -17,7 +16,7 @@
     header {
         display: flex;
         width: auto;
-        margin: none;
+        margin: 25px 50px;
     }
     header img{
         width: 100px;
@@ -68,6 +67,7 @@
     main{
         display: flex;
         flex-direction: column;
+        margin: 25px 50px;
     }    
     
 
@@ -221,9 +221,11 @@
     }
     #photo1{
         width: 235px;
-        height: auto;
+        height: 166px;
         border: 5px solid white;
-        border-radius: 25px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        object-fit: cover;
     }
 
     /*POPULAIRES*/
@@ -237,11 +239,43 @@
         margin-left: 40px;
     }
     #photo2{
-        width: 340px;
-        height: auto;
+        width: 375px;
+        height: 165px;
         border: 5px solid white;
+        object-fit: cover;
         border-radius: 25px;
     }
+
+
+    /* FOOTER */
+    footer{
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        margin-top: 50px;
+        padding: 25px 0px 25px 50px;
+        background-color: #F2F2F2;
+    }
+    footer ul{
+        list-style-type: none;
+        padding: 0;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        width: 440px;
+    }
+    .noshebergements{
+        display: flex;
+        flex-direction: column;
+        width: 440px;
+    }
+    .assistance{
+        display: flex;
+        flex-direction: column;
+        width: 440px;
+    }
+
     /* MEDIA QUERIES */
     @media screen and (max-width: 375px){
         body {
