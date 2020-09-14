@@ -5,8 +5,11 @@
 
     body {
         font-family: 'Raleway', sans-serif;
-        width: auto;
+        width: 1440px;
         height: auto;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
     }
     a{
         text-decoration: none;
@@ -51,6 +54,7 @@
     }
     .activités a:hover{
         color: #0065FC;
+        text-decoration-line: overline;
     }
     .hébergements {
         color: black;
@@ -60,6 +64,7 @@
     }
     .hébergements a:hover{
         color: #0065FC;
+        text-decoration-line: overline;
     }       
     
         
@@ -200,8 +205,9 @@
         flex: 0.7;
         background-color: #F2F2F2;
         border-radius: 20px;
-        padding-top: 35px;
-        padding-bottom: 35px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 30px;
         justify-content: space-evenly;
     }
     
@@ -211,6 +217,14 @@
         color: black;
         font-weight: bold;
         font-size: 1.2em;
+    }
+    #hébergements h2{
+        margin-left: 35px;
+    }
+    #hébergements>p{
+        margin-left: 35px;
+        margin-top: 0px;
+        margin-bottom: 25px;
     }
     .photo{
         display: flex;
@@ -259,22 +273,53 @@
     /*POPULAIRES*/
     #populaires{
         display: flex;
+        flex-direction:  column;
         flex: 0.3;
         flex-wrap: wrap;
         background-color: #F2F2F2;
         border-radius: 20px;
-        padding: 35px;
-        margin-left: 40px;
+        padding: 20px;
+        margin-left: 30px;
     }
     #photo2{
-        width: 375px;
-        height: 165px;
-        border: 5px solid white;
+        width: 125px;
+        height: 135px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
         object-fit: cover;
-        border-radius: 25px;
     }
-
-
+    .description2{
+        display: flex;
+        width: 335px;
+        flex-direction: row;
+        background-color: white;
+        border: 5px solid white;
+        border-radius: 25px;
+        box-shadow: 0px 0px 10px #F2F2F2;
+    }
+    .photo-populaires{
+        display: flex;
+        background-color: white;
+    }
+    .details{
+        padding-left: 20px;
+    }
+    .details h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .details p{
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .details .stars{
+        margin-left: 0;
+    }
+    .chart{
+        width: 335px;
+        display: flex;
+        justify-content: space-between;
+    }
     /* FOOTER */
     footer{
         display: flex;
