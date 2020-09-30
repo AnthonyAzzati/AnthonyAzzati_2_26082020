@@ -3,6 +3,7 @@
 
 Il s’agit du deuxième projet du parcours Développeur Web de chez OpenClassrooms, l’objectif est d’intégrer la maquette d’un futur site internet (fictif) de réservation de vacances nommé “Réservia” tout en respectant le cahier des charges imposé.
 
+![Desktop - 1](https://user-images.githubusercontent.com/68069850/94693757-61dd2e00-0334-11eb-8a2a-470c984cac35.png)
 
 
 Fonctionnalités
