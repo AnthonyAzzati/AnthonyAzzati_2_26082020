@@ -2,7 +2,8 @@
 
 
 Il s’agit du deuxième projet du parcours Développeur Web de chez OpenClassrooms, l’objectif est d’intégrer la maquette d’un futur site internet (fictif) de réservation de vacances nommé “Réservia” tout en respectant le cahier des charges imposé.
-  
+
+https://user.oc-static.com/upload/2020/08/24/1598262857804_Maquette%20reservia-min.png
 
 Fonctionnalités
 * Les usagers pourront rechercher des hébergements dans la ville de leur choix. Le champ de recherche est donc un champ de saisie, dont le texte peut être édité par l’usager. En revanche, à ce stade, le bouton de recherche ne sera pas fonctionnel.
