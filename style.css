@@ -40,10 +40,10 @@ a{
 .subnavbar{
     display: flex;
 }
-.hébergements{
+.hébergement{
     margin-right: 50px;
 }
-.activités{
+.activité{
     margin-right: 50px;
 }
 .inscription{
@@ -53,22 +53,22 @@ a{
 .inscription a:visited {
     color: #0065FC;
 }
-.activités {
+.activité {
     color: black;
 }
-.activités a:visited{
+.activité a:visited{
     color: black;
 }
-.activités a:hover{
+.activité a:hover{
     color: #0065FC;
 }
-.hébergements {
+.hébergement {
     color: black;
 }
-.hébergements a:visited{
+.hébergement a:visited{
     color: black;
 }
-.hébergements a:hover{
+.hébergement a:hover{
     color: #0065FC;
 }       
 
@@ -226,7 +226,6 @@ button{
     padding-right: 30px;
     justify-content: space-evenly;
 }
-
 .hébergements a{
     text-decoration-style: none;
     text-decoration-color: none;
@@ -242,5 +241,43 @@ button{
     margin-top: 0px;
     margin-bottom: 25px;
 }
+.cards1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.figure1{
+    display: flex;
+    flex-direction: column;
+    width: 235px;
+    background-color: white;
+    border-radius: 25px;
+    border: 5px solid white;
+}
+.figure1 img{
+    height: 115px;
+    width: 235;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    object-fit: cover;
+}
+.figure1 h3{
+    margin: 10px 0px 10px 0px;
+}
+.figure1 figcaption{
+    margin: 0px 0px 10px 10px;
+}
+.figure1 p{
+    margin-bottom: 10px;
+}
+.stars{
+    display: flex;
+    justify-content: flex-start;
+}
+.fa-star{
+    color: #0065FC;
+    margin: 0;
+    width: 20px;
+}
 
-/* test */
+
+/* POPULAIRES */
