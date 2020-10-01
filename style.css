@@ -190,6 +190,9 @@ button{
     padding-right: 10px;
     padding-left: 10px;
 }
+
+
+/* INFO */
 .info{
     display: flex;
     line-height: 30px;
@@ -213,6 +216,12 @@ button{
     margin-left: 15px;
 }
 
+/* CONTAINER 1 */
+.container1{
+    display: flex;
+}
+
+
 
 /* HEBERGEMENTS */
 .hébergements{
@@ -235,6 +244,7 @@ button{
 }
 .hébergements h2{
     margin-left: 35px;
+    margin-top: 0px;
 }
 .hébergements>p{
     margin-left: 35px;
@@ -252,6 +262,7 @@ button{
     background-color: white;
     border-radius: 25px;
     border: 5px solid white;
+    margin: 0px 0px 30px 35px;
 }
 .figure1 img{
     height: 115px;
@@ -281,3 +292,46 @@ button{
 
 
 /* POPULAIRES */
+.cards2{
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+.charts{
+    display: flex;
+}
+.charts h2{
+    margin-left: 40px;
+}
+.charts i{
+    margin-right: 40px;
+}
+.figure2{
+    display: flex;
+    width: 340px;
+    background-color: white;
+    border-radius: 25px;
+    border: 5px solid white;
+}
+.figure2 img{
+    width: 130px;
+    height: 135px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    object-fit: cover;
+}
+.figure2 figcaption{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 10px 10px;
+}
+.figure2 h3{
+    margin: 10px 0px 10px 0px;
+}
+
+.figure1 p{
+    margin-bottom: 10px;
+}
