@@ -447,9 +447,6 @@ button{
 
 
 
-
-
-
 /* FOOTER */
 footer{
     display: flex;
@@ -484,4 +481,22 @@ footer li{
     display: flex;
     flex-direction: column;
     width: 440px;
+}
+
+
+
+/* EFFECTS */
+
+figure{
+    transition: transform 0.3s;
+}
+figure:hover{
+    transform: scale(1.05);
+}
+.filters_details button{
+    transition: 0.3s;
+}
+.filters_details button:focus{
+    background-color: #0065FC;
+    color: white;
 }
