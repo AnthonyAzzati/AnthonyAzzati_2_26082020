@@ -13,21 +13,38 @@ body{
     flex-direction: column;
 }
 a{
+    font-size: 1rem;
     text-decoration: none;
-}  
+    color: black;
+}
 
-
+li{
+    list-style: none;
+    text-decoration: none;
+}
+h3{
+    font-size: 1rem;
+}
+p{
+    font-size: 0.875rem;
+    font-weight: lighter;
+}
+.fa-star{
+    font-size: 0.875rem;
+}
 
 /* HEADER */
 .navbar {
     display: flex;
     width: auto;
-    margin: 50px 50px 20px 50px;
+    height: auto;
+    margin: 25px 50px 50px 25px;
     justify-content: space-between;
 }
 .navbar img{
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: auto;
+    margin-left: 25px;
 }
 .logo{
     flex: 1;
@@ -42,6 +59,7 @@ a{
 }
 .hébergement{
     margin-right: 50px;
+    border-top: 3px solid #0065FC;
 }
 .activité{
     margin-right: 50px;
@@ -138,7 +156,6 @@ i {
     text-align: center;
 }
 
-
 /* FILTERS */
 .filters-cont{
     display: flex;
@@ -222,7 +239,6 @@ button{
 }
 
 
-
 /* HEBERGEMENTS */
 .hébergements{
     display: flex;
@@ -267,7 +283,7 @@ button{
 }
 .figure1 img{
     height: 115px;
-    width: 235;
+    width: auto;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     object-fit: cover;
@@ -366,6 +382,26 @@ button{
 .figure3 h3{
     margin-left: 20px;
 }
+.figure3_1{
+    display: flex;
+    flex-direction: column;
+    height: 445px;
+    width: 305px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 0px 0px 0px 80px;
+    box-shadow: 0px 0px 15px #F2F2F2;
+}
+.figure3_1 img{
+    height: 390px;
+    width: 305px;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.figure3_1 h3{
+    margin-left: 25px;
+}
 .figure4{
     display: flex;
     flex-direction: column;
@@ -459,6 +495,10 @@ footer{
 footer a{
     text-decoration-style: none;
     color: black;
+    
+}
+footer a:hover{
+    text-decoration: underline;
 }
 footer ul{
     list-style-type: none;
@@ -470,18 +510,216 @@ footer li{
 .about{
     display: flex;
     flex-direction: column;
-    width: 440px;
+    width: 33%;
 }
 .noshebergements{
     display: flex;
     flex-direction: column;
-    width: 440px;
+    width: 33%;
 }
 .assistance{
     display: flex;
     flex-direction: column;
-    width: 440px;
+    width: 33%;
 }
+
+
+/* MEDIA */
+@media screen and (max-width: 375px){
+    body {
+        width: auto;
+        margin: 25px 0 0 0;
+    }
+    main{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+    }
+    .subnavbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    header ul{
+        order: 1;
+        width: 300px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0;
+    }
+    main h1{
+        font-size: 1.5rem;
+        margin-left: 25px;
+    }
+    main>p{
+        margin-left: 25px;
+    }
+    .search-field, h2{
+        margin-left: 25px;
+    }
+    .filters-cont{
+        flex-direction: column;
+    }
+    .filters-cont h2{
+        margin-top: 0;
+    }
+    .filters{
+        flex-direction: column;
+        margin: 0;
+    }
+    .filters_details{
+        margin-bottom: 10px;
+    }
+    .info{
+        margin: 200px 0 25px 25px;
+    }
+    .container1{
+        flex-direction: column-reverse;
+    }
+    .figure2{
+        width: 330px;
+        margin-left: 20px;
+    }
+    .figure2 img{
+        width: 130px;
+    }
+    .figure1{
+        margin-left: 0;
+    }
+    .figure1 {
+        width: 335px;
+    }
+    
+    .activité{
+        padding: 0;
+        margin: 0;
+    }
+
+    .cards2{
+        background-color: #F2F2F2;
+        margin-left: 0;
+        border-radius: 0;
+    }
+    .hébergements{
+        background-color: white;
+        padding: 25px 0 0 0;
+        display: flex;
+    }
+    .cards1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .activités{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .activités h2{
+        margin-top: 25px;
+    }
+    .cards3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .figure3{
+        margin-left: 0;
+        width: 335px;
+        height: 190px;
+    }
+    .figure3 img{
+        width: 335px;
+        height: 135px;
+    }
+    .figure3 h3{
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+    .figure3_1{
+        margin-left: 0;
+        width: 335px;
+        height: 190px;
+    }
+    .figure3_1 img{
+        width: 335px;
+        height: 135px;
+    }
+    .figure3_1 h3{
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+    .figure4{
+        width: 335px;
+    }
+    .subfigure4_1{
+        margin-left: 0;
+        width: 335px;
+    }
+    .subfigure4_1 img{
+        width: 335px;
+        height: 135px;
+    }
+    .subfigure4_1 h3{
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+    .subfigure4_2{
+        margin-left: 0;
+        width: 335px;
+    }
+    .subfigure4_2 img{
+        width: 335px;
+        height: 135px;
+    }
+    .subfigure4_2 h3{
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+    .figure5{
+        width: 335px;
+    }
+    .subfigure5_1{
+        margin-left: 0;
+        width: 335px;
+    }
+    .subfigure5_1 img{
+        width: 335px;
+        height: 135px;
+    }
+    .subfigure5_1 h3{
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }.subfigure5_2{
+        margin-left: 0;
+        width: 335px;
+    }
+    .subfigure5_2 img{
+        width: 335px;
+        height: 135px;
+    }
+    .subfigure5_2 h3{
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .about, .noshebergements, .assistance{
+        width: 335px;
+    }
+}
+
 
 
 
