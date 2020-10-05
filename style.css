@@ -40,6 +40,7 @@ p{
     height: auto;
     margin: 25px 50px 50px 25px;
     justify-content: space-between;
+    flex-wrap: wrap-reverse;
 }
 .navbar img{
     width: 150px;
@@ -56,6 +57,7 @@ p{
 }
 .subnavbar{
     display: flex;
+    flex-wrap: wrap-reverse;
 }
 .hébergement{
     margin-right: 50px;
@@ -524,7 +526,63 @@ footer li{
 }
 
 
-/* MEDIA */
+/* MEDIA TABLETTE */
+@media screen and (max-width: 768px){
+    .navbar{
+        margin-bottom: 25px;
+        align-items: center;
+    }
+    .filters-cont{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .filters{
+        flex-wrap: wrap;
+    }
+    .filters_details{
+        margin-bottom: 15px;
+    }
+    .info{
+        margin-top: 100px;
+    }
+    .container1{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .charts{
+        width: 100%;
+    }
+    .cards2{
+        margin: 0 0 25px 0;
+        width: 100%;
+        align-items: center;
+    }
+    .hébergements{
+        margin: 0;
+        padding: 25px 0 0 0;
+    }
+    .cards1{
+        justify-content: center;
+    }
+    #activités{
+        margin-top: 40px;
+    }
+    .activités{
+        flex-direction: column;
+    }
+    .cards3{
+        flex-wrap: wrap;
+    }
+    .figure3_1{
+        margin: 0;
+    }
+}    
+
+
+
+
+
+/* MEDIA SMARTPHONE */
 @media screen and (max-width: 375px){
     body {
         width: auto;
@@ -575,14 +633,14 @@ footer li{
         margin-top: 0;
     }
     .filters{
-        flex-direction: column;
+        flex-wrap: wrap;
         margin: 0;
     }
     .filters_details{
         margin-bottom: 10px;
     }
     .info{
-        margin: 200px 0 25px 25px;
+        margin: 150px 0 25px 25px;
     }
     .container1{
         flex-direction: column-reverse;
@@ -613,8 +671,11 @@ footer li{
     }
     .hébergements{
         background-color: white;
-        padding: 25px 0 0 0;
         display: flex;
+        width: 100%;
+    }
+    #hébergements{
+        margin: 0 0 25px 25px;
     }
     .cards1{
         display: flex;
