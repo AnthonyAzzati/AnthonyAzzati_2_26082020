@@ -138,7 +138,6 @@ main p{
     width: 110px;
     height: 50px;
     margin: auto;
-    padding: auto;
     font-weight: bold;
     font-size: 1em;
     text-align: center;
@@ -254,8 +253,6 @@ button{
     justify-content: space-evenly;
 }
 .hébergements a{
-    text-decoration-style: none;
-    text-decoration-color: none;
     color: black;
     font-weight: bold;
     font-size: 1.2em;
@@ -495,7 +492,6 @@ footer{
     background-color: #F2F2F2;
 }
 footer a{
-    text-decoration-style: none;
     color: black;
     
 }
