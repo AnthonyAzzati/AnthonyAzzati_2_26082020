@@ -14,38 +14,43 @@
 </head>
 
 <body>
-    <header>
-        <!--navbar-->     
-        <div class="navbar">
-            <!--logo-->
-            <img src="./images/logo/Reservia@3x.png" alt="logo de Reservia" id="logo">
+    
+    <!--navbar-->     
+    <nav class="navbar">
+        <!--logo-->
+        <img src="./images/logo/Reservia@3x.png" alt="logo de Reservia" id="logo">
            
 
-            <!--subnavbar-->
-            <div class="subnavbar">
-                <ul>
-                    <li class="hébergement"><a href="#hébergements">Hébergements</a></li>
-                    <li class="activité"><a href="#activités">Activités</a></li>
-                </ul>
-                <p class="inscription"><a href="#">S'inscrire</a></p>
-            </div>    
-        </div>
-    </header>
+        <!--subnavbar-->
+        <div class="subnavbar">
+            <ul>
+                <li class="hébergement"><a href="#hébergements">Hébergements</a></li>
+                <li class="activité"><a href="#activités">Activités</a></li>
+            </ul>
+            <p class="inscription"><a href="#">S'inscrire</a></p>
+        </div>    
+    </nav>
+    
 
     <main>
-        <!--title-->
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
-
+        <header>
+            <!--title-->
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+        </header>     
 
         <!--search field-->
-        <div class="search-field">
-            <i class="fas fa-map-marker-alt fa-1x" aria-hidden="true"></i>
-            <input type="search" id="search" name="search" placeholder="Ville, code postal" aria-label="Search through site content">
-            <button class="search_btn"><span class="recherche">Rechercher</span></button>
-        </div> 
+        <form class="search_form" action="#" method="post"> 
+            <div class="search_form_icon">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <input class="search_form_text_input" type="text" name="research" id="research" placeholder="Ville, Pays">
+            <input class="search_form_submit_input" type="submit" value="Rechercher">
+            <button class="search_form_submit_input_2" type="submit"><i class="fas fa-search"></i></button>
+        </form>
 
-        
+
+
         <!--filters-->
         <div class="filters-cont">
             <h2>Filtres</h2>
@@ -80,7 +85,7 @@
 
         <!--info-->
         <div class="info">
-            <div class="border-info">
+            <div class="border_info">
                 <i class="fas fa-info 1x"></i> 
             </div>  
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
