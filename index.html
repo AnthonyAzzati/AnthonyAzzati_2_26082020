@@ -7,80 +7,84 @@
 
     <title>Reservia</title>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     
 </head>
 
 <body>
-    <header>
-        <!--navbar-->     
-        <div class="navbar">
-            <!--logo-->
-            <img src="./images/logo/Reservia@3x.png" alt="logo de Reservia" id="logo">
+    
+    <!--NAVBAR-->     
+    <nav class="navbar">
+        <!--logo-->
+        <img src="./images/logo/Reservia@3x.png" alt="logo de Reservia" id="logo">
            
 
-            <!--subnavbar-->
-            <div class="subnavbar">
-                <ul>
-                    <li class="hébergement"><a href="#hébergements">Hébergements</a></li>
-                    <li class="activité"><a href="#activités">Activités</a></li>
-                </ul>
-                <p class="inscription"><a href="#">S'inscrire</a></p>
-            </div>    
-        </div>
-    </header>
+        <!--SUBNAVBAR-->
+        <div class="subnavbar">
+            <ul>
+                <li class="hostings"><a href="#hostings">Hébergements</a></li>
+                <li class="activities"><a href="#activities">Activités</a></li>
+            </ul>
+            <p class="inscription"><a href="#">S'inscrire</a></p>
+        </div>    
+    </nav>
+    
 
     <main>
-        <!--title-->
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
+        <header>
+            <!--TITLE-->
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+        </header>     
 
 
-        <!--search field-->
-        <div class="search-field">
-            <i class="fas fa-map-marker-alt fa-1x" aria-hidden="true"></i>
-            <input type="search" id="search" name="search" placeholder="Ville, code postal" aria-label="Search through site content">
-            <button class="search_btn"><span class="recherche">Rechercher</span></button>
-        </div> 
+        <!--SEARCH FIELD-->
+        <form class="search_form" action="#" method="post"> 
+            <div class="search_form_icon">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <input class="search_form_text_input" type="text" name="research" id="research" placeholder="Ville, Pays">
+            <input class="search_form_submit_input" type="submit" value="Rechercher">
+            <button class="search_form_submit_input_2" type="submit"><i class="fas fa-search"></i></button>
+        </form>
 
-        
-        <!--filters-->
-        <div class="filters-cont">
+
+
+        <!--SEARCH FILTERS-->
+        <div class="search_filters">
             <h2>Filtres</h2>
-            <div class="filters">
-                <div class="filters_details">
-                    <div class="icone">
-                        <i class="fas fa-money-bill-wave fa-1x" aria-hidden="true"></i>
-                    </div>
-                    <button>Économique</button>
-                </div>
-                <div class="filters_details">
-                    <div class="icone">
-                        <i class="fas fa-child fa-1x" aria-hidden="true"></i>
-                    </div>
-                    <button>Familial</button>
-                </div>       
-                <div class="filters_details">
-                    <div class="icone">
-                        <i class="fas fa-heart fa-1x" aria-hidden="true"></i>
-                    </div>    
-                    <button>Romantique</button>
-                </div>    
-                <div class="filters_details">
-                    <div class="icone">
-                        <i class="fas fa-dog fa-1x" aria-hidden="true"></i>
-                    </div>
-                    <button>Animaux autorisés</button>
-                </div>
-            </div>  
+            <div class="search_filter_category">
+                <div class="search_filter_category_icon">
+                    <i class=" fas fa-money-bill-wave "></i>
+                </div>            
+                <h3 class="search_filter_category_title">Économique</h3>
+            </div>
+            <div class="search_filter_category">
+                <div class="search_filter_category_icon">
+                    <i class="fas fa-child"></i>
+                </div> 
+                <h3 class="search_filter_category_title">Familial</h3>
+            </div>
+            <div class="search_filter_category">
+                <div class="search_filter_category_icon">
+                    <i class="fas fa-heart"></i>
+                </div>                    
+                <h3 class="search_filter_category_title">Romantique</h3>
+            </div>
+            <div class="search_filter_category">
+                <div class="search_filter_category_icon">
+                    <i class="fas fa-dog"></i>
+                </div> 
+                <h3 class="search_filter_category_title">Animaux autorisés</h3>
+            </div>
         </div>    
 
 
-        <!--info-->
+        <!--INFO-->
         <div class="info">
-            <div class="border-info">
+            <div class="border_info">
                 <i class="fas fa-info 1x"></i> 
             </div>  
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
@@ -88,8 +92,8 @@
 
         <div class="container1">
         <!--section hébergements--> 
-        <section class="hébergements">
-            <h2 id="hébergements">Hébergements à Marseille</h2>
+        <section class="hostings">
+            <h2 id="hostings">Hébergements à Marseille</h2>
 
             <section class="cards1">
                 <a href="#">
@@ -103,7 +107,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="fas fa-star" style="color: #F2F2F2"></i>
+                            <i class="fas fa-star"></i>
                         </div>     
                     </figcaption>
                 </figure>
@@ -137,7 +141,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="fas fa-star" style="color: #F2F2F2"></i>
+                            <i class="fas fa-star"></i>
                         </div>     
                     </figcaption>
                 </figure>
@@ -153,8 +157,8 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="fas fa-star" style="color: #F2F2F2"></i>
-                            <i class="fas fa-star" style="color: #F2F2F2"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                         </div>    
                     </figcaption>
                 </figure>
@@ -171,7 +175,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="fas fa-star" style="color: #F2F2F2"></i>
+                            <i class="fas fa-star"></i>
                         </div>    
                     </figcaption>
                 </figure>
@@ -198,7 +202,7 @@
         </section>
 
 
-        <!--section populaires-->
+        <!--SECTION POPULAIRES-->
         <section class="cards2">
             <div class="charts">
                 <h2>Les plus populaires</h2>
@@ -233,7 +237,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="fas fa-star" style="color: #F2F2F2"></i>
+                        <i class="fas fa-star"></i>
                     </div>    
                 </figcaption>
             </figure>
@@ -250,7 +254,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="fas fa-star" style="color: #F2F2F2"></i>
+                        <i class="fas fa-star"></i>
                     </div>    
                 </figcaption>
             </figure>
@@ -259,8 +263,8 @@
         </div>
 
 
-        <section class="activités">
-            <h2 id="activités">Activités à Marseille</h2>
+        <section class="activities">
+            <h2 id="activities">Activités à Marseille</h2>
             <div class="cards3">
                 <a href="#">
                 <figure class="figure3">
@@ -324,9 +328,9 @@
     </main>
 
 
-    <!--footer-->
+    <!--FOOTER-->
     <footer>
-        <!--à propos-->
+        <!--ABOUT-->
         <section class="about">
             <h4>A propos</h4>
             <ul>
@@ -336,8 +340,8 @@
             </ul>
         </section>
 
-        <!--nos hébergements -->
-        <section class="noshebergements">
+        <!--OUR HOSTINGS-->
+        <section class="ourhostings">
             <h4>Nos hébergements</h4>
             <ul>
                 <li><a href="#">Charte qualité</a></li>
@@ -345,7 +349,7 @@
             </ul>
         </section>
 
-        <!--assistance--> 
+        <!--ASSISTANCE--> 
         <section class="assistance">
             <h4>Assistance</h4>
             <ul>
