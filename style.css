@@ -510,6 +510,10 @@ footer ul {
 }
 
 @media screen and (min-width: 376px) {
+    .search_form_submit_input_2{
+        display: none;
+    }
+
     .search_filters section {
         display: flex;
         flex-wrap: wrap;
@@ -646,3 +650,33 @@ footer ul {
     }
 }    
 /* END DESKTOP 992px */
+
+
+
+/* DESKTOP 1200px */
+@media screen and (min-width: 1200px) {
+    .figure_3 {
+        margin-left: 25px;
+    }
+}
+/* END DESKTOP 1200px */
+
+
+
+/* DESKTOP 1440px */
+@media screen and (min-width: 1440px) {
+    body {
+        margin: auto;
+        width: 1440px;
+    }
+
+    .cards_3 {
+        margin: 0;
+    }
+
+    .figure_3,
+    .figure_3 img {
+        width: 300px;
+    }
+}
+/* END DESKTOP 1440px */
