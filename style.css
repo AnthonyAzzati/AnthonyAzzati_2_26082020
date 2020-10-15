@@ -84,7 +84,7 @@ li {
 .hostings a:hover,
 .activities a:hover {
     color: #0065FC;
-}
+} 
 /* END NAVBAR */
 
 
@@ -105,12 +105,12 @@ header h1 {
 
 
 /* SEARCH FIELD */
-.search_form{
+.search_form {
     display: flex;
     margin: 25px 15px 25px 15px;
 }
 
-.search_form_icon{
+.search_form_icon {
     background-color: #F2F2F2;
     padding: 1rem 1.25rem;
     border-radius: 1rem 0 0 1rem;
@@ -230,6 +230,7 @@ header h1 {
 .global_hostings {
     display: flex;
     flex-direction: column;
+    margin-left: 15px;
 }
 
 .global_hostings h2 {
@@ -463,7 +464,7 @@ header h1 {
 .figure_4_1 img,
 .figure_4_2 img,
 .figure_5_2 img,
-.figure_5_1 img{
+.figure_5_1 img {
     width: 325px;
     height: 115px;
     object-fit: cover;
