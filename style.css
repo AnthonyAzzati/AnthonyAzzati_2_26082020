@@ -214,8 +214,9 @@ header h1 {
     margin-right: 1rem;
 }
 
-.info p {
+.info h4 {
     font-size: 0.9rem;
+    font-weight: normal;
 }
 /* END INFO */
 
