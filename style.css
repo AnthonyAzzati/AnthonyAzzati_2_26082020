@@ -26,65 +26,40 @@ li {
 
 
 /* NAVBAR */
-.navbar,
-.subnavbar_1,
-.subnavbar_2,
-.hostings,
-.activities {
+nav,
+.navbar {
     display: flex;
 }
 
-.navbar {
-    flex-direction: column;
-}
-
-.subnavbar_1 {
-    justify-content: space-between;
+nav img {
     margin: 0 15px 0px 15px;
-}
-
-.subnavbar_1 img {
     width: 110px;
     height: 60px;
 }
 
-.subnavbar_1 p {
-    margin: auto 0 auto 0;
-    font-weight: bold;
-}
-
-.subnavbar_1 a {
-    color: #0065FC;
-}
-
-.subnavbar_2 {
+.navbar {
     justify-content: space-evenly;
     align-items: center;
     padding: 0;
     height: 50px;
 }
 
-.subnavbar_2 li {
-    width: 100%;
+.navbar_signup a {
+    color: #0065FC;
+    font-weight: bold;
 }
 
-.hostings,
-.activities {
+.navbar_link {
+    border-bottom: 2px solid #F2F2F2;
     justify-content: center;
     align-items: center;
     height: 50px;
-    border-bottom: 2px solid #F2F2F2;
 }
 
-.hostings:hover,
-.activities:hover {
+.navbar_link:hover {
     border-bottom: 2px solid #0065FC;
-}
-
-.hostings a:hover,
-.activities a:hover {
     color: #0065FC;
-} 
+}
 /* END NAVBAR */
 
 
@@ -250,13 +225,13 @@ header h1 {
 
 
 /* CARDS_2 */
-.cards_2,
+.populary,
 .charts,
-.figure_2 {
+.populary_component {
     display: flex;
 }
 
-.cards_2 {
+.populary {
     flex-direction: column;
     background-color: #F2F2F2;
     width: 100%;
@@ -272,7 +247,7 @@ header h1 {
     margin: 0;
 }
 
-.figure_2 {
+.populary_component {
     border: 5px solid white;
     border-radius: 25px;
     margin: 0 15px 15px 15px;
@@ -281,26 +256,26 @@ header h1 {
     transition: 0.3s;
 }
 
-.figure_2 img {
+.populary_component img {
     width: 130px;
     object-fit: cover;
     border-top-left-radius: 23px;
     border-bottom-left-radius: 23px;
 }
 
-.figure_2_description {
+.populary_description {
     background-color: white;
     padding: 15px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-.figure_2_description h3 {
+.populary_description h3 {
     margin: 0;
     font-size: 18px;
 }
 
-.figure_2_description p {
+.populary_description p {
     margin: 5px 0 25px 0;
 }
 
@@ -327,7 +302,7 @@ header h1 {
 
 /* CARDS_1 */
 .cards_1,
-.figure_1 {
+.hostings_component {
     display: flex;
     flex-direction: column;
 }
@@ -342,7 +317,7 @@ header h1 {
     margin-left: 15px;
 }
 
-.figure_1 {
+.hostings_component {
     width: 325px;
     height: auto;
     margin: 15px 15px 5px 0;
@@ -353,7 +328,7 @@ header h1 {
 }
 
 
-.figure_1 img {
+.hostings_component img {
     width: 325px;
     height: 115px;
     object-fit: cover;
@@ -361,19 +336,19 @@ header h1 {
     border-top-right-radius: 25px;
 }
 
-.figure_1_description {
+.hostings_description {
     margin: 5px 15px 5px 15px;
     background-color: white;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-.figure_1_description h3 {
+.hostings_description h3 {
     margin: 0;
     font-size: 18px;
 }
 
-.figure_1_description p {
+.hostings_description p {
     margin: 5px 0 15px 0;
 }
 /* END CARDS_1 */
@@ -473,8 +448,8 @@ header h1 {
     border-top-right-radius: 25px;
 }
 
-.figure_1:hover,
-.figure_2:hover,
+.hostings_component:hover,
+.populary_component:hover,
 .figure_3:hover,
 .figure_4_1:hover,
 .figure_4_2:hover,
@@ -526,7 +501,7 @@ footer ul {
         margin-right: 25px;
     }
 
-    .cards_2 {
+    .populary {
         align-items: center;
     }
     
@@ -561,11 +536,11 @@ footer ul {
         margin: 25px 0 25px 25px;
     }
 
-    .figure_2 {
+    .populary_component {
         width: 420px;
     }
 
-    .figure_2 img {
+    .populary_component img {
         width: 200px;
     }
 
@@ -614,7 +589,7 @@ footer ul {
     }
 
     .global_hostings,
-    .cards_2 {
+    .populary {
         background-color: #F2F2F2;
         border-radius: 25px;
     }
@@ -624,14 +599,14 @@ footer ul {
         margin: 0 25px 0 25px;
     }
 
-    .cards_2 {
+    .populary {
         flex: 0.2;
         margin: 0 25px 0 0;
         justify-content: space-between;
     }
 
-    .figure_1,
-    .figure_1 img {
+    .hostings_component,
+    .hostings_component img {
         width: 235px;
     }
 
@@ -643,11 +618,11 @@ footer ul {
         border-bottom-right-radius: 20px;
     }
 
-    .figure_2 {
+    .populary_component {
         width: 335px;
     }
 
-    .figure_2 img {
+    .populary_component img {
         width: 125px;
     }
 }    
