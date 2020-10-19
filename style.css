@@ -538,6 +538,12 @@ footer ul {
 
 /* TABLET */
 @media screen and (min-width: 768px) {
+    .search_filters div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
     .search_form_submit_input_2 {
         display: none;
     }
