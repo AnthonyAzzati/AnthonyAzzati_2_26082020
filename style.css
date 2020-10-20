@@ -682,5 +682,17 @@ footer ul {
     .activities_component img {
         width: 300px;
     }
+
+    .activities_component_1_1 img {
+        height: 175px;
+    }
+
+    .activities_component_1_2 {
+        margin: 0 15px 0 0;
+    }
+
+    .activities_component_2_1 {
+        margin-bottom: 25px;
+    }
 }
 /* END DESKTOP 1440px */
